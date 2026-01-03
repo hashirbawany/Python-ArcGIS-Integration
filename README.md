@@ -26,4 +26,4 @@ and control of maps and layouts in ArcGIS Pro using the ArcPy API.
 ## Usage
 1. Create an empty ArcGIS Pro project (`.aprx`).
 2. Update file paths and parameters in `usage_example.py`.
-3. Run the script using the ArcGIS Pro Python environment
+3. Run the script using the ArcGIS Pro Python environment.
