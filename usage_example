@@ -4,11 +4,11 @@ Before running this script, create an empty ArcGIS Pro project (.aprx).
 
 # Section 1: Setup
 
-# 1.1 Import ArcPy and custom map/layout functions
+# 1.1 Importing ArcPy and custom map/layout functions
 import arcpy
 from function import create_single_map, create_standard_layout
 
-# 1.2 Load ArcGIS Pro project and define file paths
+# 1.2 Loading ArcGIS Pro project and define file paths
 # path where empty project is stored
 aprx = arcpy.mp.ArcGISProject(
     r"C:\Users\Public\ArcGis project\ArcGis project.aprx"
@@ -27,7 +27,7 @@ copy_data_path = (
     r"C:\Users\Public\ArcGis project\harris_underinsurance_edit.shp"
 )
 
-# Create a working copy of the data
+# Creating a working copy of the data
 arcpy.management.CopyFeatures(original_data_path, copy_data_path)
 
 
